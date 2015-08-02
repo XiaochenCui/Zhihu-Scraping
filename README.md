@@ -13,13 +13,14 @@ Zhihu-Scraping：提取知乎信息
 - 使用 requests <https://github.com/kennethreitz/requests> 处理 http 请求
 - 使用 html2text <https://github.com/aaronsw/html2text> 进行格式转换
 - 使用 xlwt <https://github.com/python-excel/xlwt> 将数据写入 excel 表格
-
+- 使用 lxml parser 来对 html 内容进行梳理 
 没有的话可以使用 pip 安装：
 
     $ pip install requests
     $ pip install beautifulsoup4
     $ pip install html2text
     $ pip install xlwt
+    $ pip install lxml
 
 # 文件概述
 
