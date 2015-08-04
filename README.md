@@ -119,6 +119,7 @@ User ---- 知乎用户操作类:
     new_user.save_followees_profile() (道理基本同上)
 
 **注意** 当用户关注者很多时 save_followers_profile() 函数运行可能需要花一定时间
+
 **注意** 建议不要提取用来登陆的账号的信息，可能会有bug；可以专门注册另一个账号来进行信息提取
 
 Answer ---- 知乎答案操作类:
